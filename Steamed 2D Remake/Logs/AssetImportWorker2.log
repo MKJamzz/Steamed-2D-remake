@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32058 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/UNITY/Steamed-2D-remake/Steamed 2D Remake
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54240
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/UNITY/Steamed-2D-remake/Steamed 2D Remake
+C:/UNITY/Steamed-2D-remake/Steamed 2D Remake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32324]  Target information:
+
+Player connection [32324]  * "[IP] 192.168.4.160 [Port] 0 [Flags] 2 [Guid] 3423331238 [EditorId] 3423331238 [Version] 1048832 [Id] WindowsEditor(7,FlipPhone) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32324] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32324] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UNITY/Steamed-2D-remake/Steamed 2D Remake/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6103
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002971 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (273ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (237ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1721ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6544 unused Assets / (6.7 MB). Loaded Objects now: 7190.
+Memory consumption went from 176.7 MB to 170.0 MB.
+Total: 11.901600 ms (FindLiveObjects: 0.830800 ms CreateObjectMapping: 0.727300 ms MarkObjects: 6.601500 ms  DeleteObjects: 3.740600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 759231.661873 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap.png
+  artifactKey: Guid(b22b936c47fc3184c9da10a2357a0758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap.png using Guid(b22b936c47fc3184c9da10a2357a0758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fbebffe695bc3b1dc29ce5915d1695a') in 0.1202165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.482146 seconds.
+  path: Assets/CameraManager.cs
+  artifactKey: Guid(95644d3b258d1a3408f90e6669a03233) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CameraManager.cs using Guid(95644d3b258d1a3408f90e6669a03233) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd0a6361a49240b227356506d226f079') in 0.1712281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap_3.asset
+  artifactKey: Guid(2958f53b5da4a4b40b13689db0514d31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap_3.asset using Guid(2958f53b5da4a4b40b13689db0514d31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b10eb9cdf59f5b266e0cd66dcc039a5') in 0.0347647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dac40fbfbb821bbd86db617bc2e68ee') in 0.116074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.957482 seconds.
+  path: Assets/testingTilemap.prefab
+  artifactKey: Guid(b16c270c7dc7d9c43953e3d8f55140c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/testingTilemap.prefab using Guid(b16c270c7dc7d9c43953e3d8f55140c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf1b9506aeeb2cce9c2c3e98ef5fb10') in 0.0420733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.632288 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0005248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.948986 seconds.
+  path: Assets/New Rule Tile.asset
+  artifactKey: Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Rule Tile.asset using Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c945337e660ddbbf307c961f8b705e42') in 0.0062711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974167 seconds.
+  path: Assets/New Rule Tile.asset
+  artifactKey: Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Rule Tile.asset using Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d300b1ca3273a75d778cdb48b2cf8d4') in 0.019712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.091664 seconds.
+  path: Assets/grassRuleTile.asset
+  artifactKey: Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grassRuleTile.asset using Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d0614c7fdca4315a998e72a7313de5f') in 0.0018709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973713 seconds.
+  path: Assets/grassRuleTile.asset
+  artifactKey: Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/grassRuleTile.asset using Guid(9f21e7e3984ddfe45852a1e007cefc5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a581e9e4ef326718ba21aeb905ad211') in 0.0131816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.583489 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1.png
+  artifactKey: Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1.png using Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0e392bf82f7f14b28d70387565e3fc4') in 0.0221213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.955759 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1.png
+  artifactKey: Guid(2e723e7633578f448bda9dd7ec990f12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1.png using Guid(2e723e7633578f448bda9dd7ec990f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9afbb9504d97ea8536f88ab8f9ddfc7') in 0.0371155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.693413 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1.png
+  artifactKey: Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1.png using Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb23a01613072dd0887f564aa58e88fe') in 0.0166897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.713855 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1.png
+  artifactKey: Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1.png using Guid(2e723e7633578f448bda9dd7ec990f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0209de982a00e8bd29fe21986cc6365') in 0.0419797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.228066 seconds.
+  path: Assets/testingTilemap.prefab
+  artifactKey: Guid(b16c270c7dc7d9c43953e3d8f55140c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/testingTilemap.prefab using Guid(b16c270c7dc7d9c43953e3d8f55140c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e567a23b30956ba44cd32bd3d5b52666') in 0.0154927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.821912 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c4c08155a86081f4b812879649ea318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c4c08155a86081f4b812879649ea318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e515eb51fd081df2ce311ad17a315d12') in 0.0006416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.731825 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_0.asset
+  artifactKey: Guid(62ac4c20e97d054449376d95edf90ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_0.asset using Guid(62ac4c20e97d054449376d95edf90ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ea1fab12f7a949b9a7c4637b96a4ca1') in 0.0143285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001828 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_6.asset
+  artifactKey: Guid(685ff752cd4266444a9747d5a81a1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_6.asset using Guid(685ff752cd4266444a9747d5a81a1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '314caf5c3c611a487e13eba3f42ccd14') in 0.0165636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_8.asset
+  artifactKey: Guid(af45ec17d0c7c44438a7c4273a22dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_8.asset using Guid(af45ec17d0c7c44438a7c4273a22dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eee27b0a85429f5ca35953e7a8f1d69d') in 0.0145545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.883815 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_7.asset
+  artifactKey: Guid(e6e226cf6c87a6443a930a41458c866b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_7.asset using Guid(e6e226cf6c87a6443a930a41458c866b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '204bd2813a946eb2e5108c4fd8a290e9') in 0.0362237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_1.asset
+  artifactKey: Guid(4a031ee79301dea40aa16fd5bec1f2cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_1.asset using Guid(4a031ee79301dea40aa16fd5bec1f2cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0a144781460011b1fdb924fbc5d4e6a') in 0.0168771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_5.asset
+  artifactKey: Guid(449ddb222d24c6048a830042e1b4451e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_5.asset using Guid(449ddb222d24c6048a830042e1b4451e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a01ab3901f91dbd0920ff17e73573ddc') in 0.0189252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_8.asset
+  artifactKey: Guid(af45ec17d0c7c44438a7c4273a22dc32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_8.asset using Guid(af45ec17d0c7c44438a7c4273a22dc32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc843fcac4768c52a1959c5b9bad8687') in 0.0168881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/tilema[s/randomtilemap 1_2.asset
+  artifactKey: Guid(83a0bfb3267f64241b8561a4c42e6505) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sprites/tilema[s/randomtilemap 1_2.asset using Guid(83a0bfb3267f64241b8561a4c42e6505) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c8043f71c606e6212d2413f5a517617') in 0.0172687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
