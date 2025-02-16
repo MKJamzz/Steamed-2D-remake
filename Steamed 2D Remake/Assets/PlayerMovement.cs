@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         maxSpeed = 5;
-        changeSpeed = 5;
+        changeSpeed = 30;
     }
 
     // Update is called once per frame
@@ -44,11 +44,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(inp < 0)    //If on the left side
         {
-            if (-speed > -maxSpeed)
+            if (speed > -maxSpeed)
             {
                 speed -= changeSpeed * Time.deltaTime;
             }
-            else if (speed >= maxSpeed)
+            else if (speed <= -maxSpeed)
             {
                 speed = -maxSpeed;
             }
